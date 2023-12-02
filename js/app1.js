@@ -120,3 +120,12 @@ const iceTeaPrice = 100;
 let value = iceTeaPrice >= 80 ? "less than 80" : "more than 80";
 
 console.log(value);  // less than 80
+
+// ---------------------------------------------------------------------
+
+// for Loop
+for(let index = 0; index < 10; index++){
+    const element = index;
+
+    console.log(element);
+}
