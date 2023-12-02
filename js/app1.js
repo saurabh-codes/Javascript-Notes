@@ -110,3 +110,13 @@ let value2 = undefined ?? 10;  // 10
 let value3 = null ?? 10 ?? 15;  // 10
 
 console.log(value3);
+
+// ---------------------------------------------------------------------
+
+// Terniary Operator
+// - Condition ? true : false
+
+const iceTeaPrice = 100;
+let value = iceTeaPrice >= 80 ? "less than 80" : "more than 80";
+
+console.log(value);  // less than 80
