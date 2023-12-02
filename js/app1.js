@@ -103,3 +103,10 @@ false == ""  // true
 // - Yaha pe bs do keyword pe dhekhna hai ( null and undefined ).
 // - its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns
 //   its left-hand side operand.
+
+let value = 5 ?? 10;  // 5
+let value1 = null ?? 10;  // 10
+let value2 = undefined ?? 10;  // 10
+let value3 = null ?? 10 ?? 15;  // 10
+
+console.log(value3);
